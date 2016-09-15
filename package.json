@@ -1,0 +1,23 @@
+{
+  "name": "css-min-widths-dc",
+  "version": "1.0.0",
+  "description": "Css module of single purpose classes for min widths",
+  "main": "index.js",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.6"
+  },
+  "scripts": {
+    "start": "tachyons src/css-min-widths.css > css/css-min-widths.css && tachyons src/css-min-widths.css --minify > css/css-min-widths.min.css && tachyons src/css-min-widths.css --generate-docs --package=../../package.json > readme.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/css-min-widths-dc.git"
+  },
+  "keywords": [],
+  "author": "David Mark Clements",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/css-min-widths-dc/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/css-min-widths-dc#readme"
+}
